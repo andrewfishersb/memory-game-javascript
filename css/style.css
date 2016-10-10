@@ -1,0 +1,12 @@
+.front {
+  display: none;
+}
+div{
+  margin-bottom: 5px;
+}
+.container{
+  width: 1600px;
+}
+img{
+  border: 1px solid black;
+}
