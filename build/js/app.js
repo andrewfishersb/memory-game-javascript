@@ -42,12 +42,6 @@ $(document).ready(function(){
         }
         counter =0;
       }
-      // if(outcome&&newMemory.maxScore===6){
-      //   alert("you win");
-      // }else if(outcome){
-      //   $("#" + id1 + " .front").show();
-      //   $("#" + id2 + " .front").show();
-      //   counter = 0;
        else{
         setTimeout(function(){
         $("#" + id1 + " .back").show();

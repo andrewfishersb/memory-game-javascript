@@ -9,4 +9,14 @@ div{
 }
 img{
   border: 1px solid black;
+  width: 350px;
+  height: 350px;
+}
+.jumbotron{
+  background: 	-webkit-linear-gradient(#ff69ff, white);
+}
+.jumbotron h1{
+  color: #FF69B4;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
 }
