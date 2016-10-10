@@ -41,6 +41,7 @@ $(document).ready(function(){
         }
         counter =0;
       }
+
        else{
         setTimeout(function(){
         $("#" + id1 + " .back").show();
@@ -50,11 +51,5 @@ $(document).ready(function(){
         counter = 0; }, 300);
       }
     }
-
   });
-
-
-
-
-
 });

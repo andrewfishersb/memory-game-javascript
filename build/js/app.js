@@ -6,7 +6,7 @@ $(document).ready(function(){
   var counter = 0;
   var newMemory = new Memory();
   var value1,value2,id1,id2, clicked1, clicked2;
-
+  var winCount =0;
   $(".gameboard").children().click(function(){
     if(counter===0){
       value1 = $(this).attr('data-value');
@@ -37,9 +37,10 @@ $(document).ready(function(){
       if(outcome){
         $("#" + id1 + " .front").show();
         $("#" + id2 + " .front").show();
-        if(newMemory.maxScore===6){
+        if(winCount===6){
           alert("You win");
         }
+        winCount++;
         counter =0;
       }
        else{
